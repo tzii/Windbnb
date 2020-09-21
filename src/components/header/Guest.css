@@ -1,0 +1,14 @@
+.compute button {
+    border: 1px solid #828282;
+}
+.compute button:hover {
+    background-color: #bdbdbd4d;
+}
+.compute button:focus {
+    outline: none;
+    background-color: #bdbdbd91;
+}
+.compute .count {
+    width: 40px;
+    text-align: center;
+}

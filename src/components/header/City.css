@@ -1,0 +1,12 @@
+.city {
+    transition: 0.1s;
+    font-family: Mulish;
+}
+
+.city:hover {
+    background-color: var(--gray-1);
+}
+.city.text-red-500:hover {
+    color: #ffffff;
+    background-color: #f56565;
+}

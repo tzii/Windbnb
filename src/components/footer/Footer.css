@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 25px auto;
+    color: #a9a9a9;
+}
+footer hr {
+    color: #bdbdbd;
+    max-width: 400px;
+    height: 1px;
+    background: #bdbdbd;
+    font-style: normal;
+    margin: auto;
+}

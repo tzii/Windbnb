@@ -1,0 +1,14 @@
+.card {
+    max-width: 700px;
+}
+.card .card-img {
+    max-height: 300px;
+    transition: 0.4s;
+}
+.card .card-img:hover {
+    transform: scale(1.05, 1.05);
+}
+.super-host {
+    border: 1px solid #4f4f4f;
+    line-height: 15px;
+}

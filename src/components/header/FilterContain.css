@@ -1,0 +1,78 @@
+#filter-contain {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #fff;
+    height: 0;
+    width: 100vw;
+    overflow: hidden;
+}
+#filter-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: #000000;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
+#filter-contain.show {
+    visibility: visible;
+    height: 90vh;
+    transition: height 0.4s;
+}
+#filter-bg.show {
+    display: block;
+}
+#filter-contain .filter-view > *.focus {
+    border: 1px solid red;
+    border-radius: 12px;
+}
+.search-icon button {
+    padding: 12px;
+    background: #eb5757 90%;
+}
+.search-icon button:focus {
+    outline: none;
+}
+
+.current-location.checked,
+.current-guest.checked {
+    color: var(--black-1);
+}
+#filter-contain .filter-detail > *,
+#filter-contain .filter-view > * {
+    width: 100%;
+}
+.filter-title p {
+    font-family: Mulish;
+}
+.filter-title button:focus {
+    outline: none;
+    background-color: var(--gray-1);
+}
+@media (min-width: 640px) {
+    #filter-contain .filter-detail > *,
+    #filter-contain .filter-view > * {
+        width: 33.33333%;
+    }
+    #filter-contain.show {
+        height: 500px;
+    }
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+}
